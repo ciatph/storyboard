@@ -17,9 +17,9 @@ Core project dependencies are: Ruby, Yarn and PostgreSQL. The following versions
 ### Installation Instructions
 
 1. Install [Ruby](https://www.ruby-lang.org/en/). For windows machines, use the [RubyInstaller](https://rubyinstaller.org/downloads/).
-	- select the `Ruby+Devkit 2.5.3-1 (x64)`. Install all `MSYS2 toolchain` when prompted.
+	- select `Ruby+Devkit 2.5.3-1 (x64)`. Install all `MSYS2 toolchain` when prompted.
 
-2. Open a command line and run the following commands. Do not overwrite if these they are already available:
+2. Install the Ruby Bundler. Open a command line and run the following commands. Do not overwrite if these they are already available:
 	- `gem install bundler`
 
 4. Install [Yarn](https://yarnpkg.com/lang/en/docs/install/#windows-stable).
