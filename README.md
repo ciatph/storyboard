@@ -19,7 +19,7 @@ Core project dependencies are: Ruby, Yarn and PostgreSQL. The following versions
 1. Install [Ruby](https://www.ruby-lang.org/en/). For windows machines, use the [RubyInstaller](https://rubyinstaller.org/downloads/).
 	- select the `Ruby+Devkit 2.5.3-1 (x64)`. Install all `MSYS2 toolchain` when prompted.
 
-2. Open a command line and run the following commands. Do not overwrite these they are already available:
+2. Open a command line and run the following commands. Do not overwrite if these they are already available:
 	- `gem install bundler`
 
 4. Install [Yarn](https://yarnpkg.com/lang/en/docs/install/#windows-stable).
@@ -33,7 +33,7 @@ Core project dependencies are: Ruby, Yarn and PostgreSQL. The following versions
 As of this date (20190219), the original project files will need to be updated:
 
 1. Open the `Gemfile`.
-	- Update the ruby version. Ruby 2.5.3 was used for this set-up: `ruby '2.5.3'`
+	- Update the ruby version. Ruby 2.5.3 was used for this set-up. Overwrite with: `ruby '2.5.3'`
 	- Add `gem 'tzinfo-data'` 
 
 2. Open a command line and navigate to your project directory. Run `bundle` from the command line.
