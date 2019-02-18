@@ -67,7 +67,7 @@ Open (2) instances of the command line and navigate both to your project directo
 
 **"Could not open library 'libcurl': The specified module could not be found"**
 
-1. Download cURL from the following URL: [https://curl.haxx.se/windows/](https://curl.haxx.se/windows/) (Choose 64bit if that's the system you're using)
+1. Download cURL from the following URL: [https://curl.haxx.se/windows/](https://curl.haxx.se/windows/) (Choose 64bit if that's the system you're using). [[mirror here](https://www.dropbox.com/s/jed2dnjvjshwrfo/curl-7.64.0-win64-mingw.zip?dl=0)].
 
 2. Go into the archive and browse to `/bin`
 Locate `libcurl_x64.dll` (it may be just `libcurl.dll`)
