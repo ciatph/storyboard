@@ -44,7 +44,13 @@ As of this date (20190219), the original project files will need to be updated:
 
 4. Open `/config/database.yml`. Delete the `database` line under `development`, `test` and `production`. Replace with <br> 
 
-	`url: postgres://postgres:admin@localhost/storybook`. (where "storybook" is the yet-to-be-created database. You can assign your own database name). Delete the `username` and `password` lines under `production`.
+	- `url: postgres://postgres:admin@localhost/storybook`. (where "storybook" is the yet-to-be-created database in PostgreSQL. You can assign your own database name).
+
+
+	- Take note of the PostgreSQL's database URL format:
+	`postgres://<USERNAME>:<PASSWORD>@localhost/<DATABASE_NAME>`
+
+	- Delete the `username` and `password` lines under `production`.
 
 5. Open `/db/seeds.rb`. Delete all `private: true` nodes.
 
